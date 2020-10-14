@@ -29,15 +29,12 @@ sudo apt-get install PyMOL
 python md_contact_surface.py -top topology_file.xxx -traj trajectory_file.xxx -l "ligand_selection" -p "protein_selection" -o contact_surface_data
 ```
 
-It is also possible to specify the frames of the trajectory to be analyzed. The initial and final frame can be specified as: ``-f 1:1000``, this option will analyze each frame from position 1 to 1000. But also the spacing between frames can be specified, for example the option: ``-f 1:1000:5`` will analyze the frames every 5th in the range 1 - 1000.
+It is also possible to specify the frames of the trajectory to be analyzed. The initial and final frame can be specified as: ``-f 1:1000``, this option will analyze each frame from position 1 to 1000. But also the spacing between frames can be specified, for example the option: ``-f 1:1000:5`` will consider every 5 frames in the range 1 - 1000.
 
-To see the full list of options use:
+To see available options use:
 ```
 python md_contact_surface.py -h
 ```
-
-To see the full list of options use:
-python md_contact_surface.py -h
 
 ## Contributors
 
@@ -45,6 +42,10 @@ Be sure to thank these contributors:
 
 * [Mauricio Bedoya](https://github.com/maurobedoya) - Creator, maintainer
 * [Francisco Adasme](http://github.com/franciscoadasme) - Contributor
+
+## License
+
+Licensed under the MIT license, see the separate LICENSE file.
 
 ## Citing
 
