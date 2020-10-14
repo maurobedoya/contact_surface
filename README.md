@@ -49,6 +49,7 @@ Licensed under the MIT license, see the separate LICENSE file.
 
 ## Citing
 
-* [Contact_surface](https://github.com/maurobedoya/contact_surface)
+* Mauricio Bedoya, & Francisco Adasme. (2020, October 14). Contact surface analyzer: v1.0 (Version 1.0). Zenodo. http://doi.org/10.5281/zenodo.4088995
+* [![DOI](https://zenodo.org/badge/303850778.svg)](https://zenodo.org/badge/latestdoi/303850778)
 * [PyMOL](https://pymol.org/2/)
 
