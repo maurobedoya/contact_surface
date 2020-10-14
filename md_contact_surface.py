@@ -81,7 +81,7 @@ def parse_args(argv):
         "-top", dest="topology", help="Structure file (.pdb, .psf, .cms, .gro)"
     )
     parser.add_argument(
-        "-traj", dest="trajectory", help="Trajectory file (.dcd, .dtr, .xtc)"
+        "-traj", dest="trajectory", help="Trajectory file (.dcd, .crd .xtc, .trr)"
     )
     parser.add_argument(
         "-f",
