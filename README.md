@@ -8,7 +8,7 @@ Python script to calculate the contact surface area between two molecular struct
 
 ## Features
 
-It allows to carry out the analysis in the different formats supported by Pymol, e.g., .pdb, .gro, .cms and trajectory files; .dcd, .crd, .xtc, and .trr.
+It allows to carry out the analysis in the different formats supported by PyMOL, e.g., .pdb, .gro, .cms and trajectory files; .dcd, .crd, .xtc, and .trr.
 
 It allows obtaining in a .dat file the surface area obtained by SASA of the ligand, protein, the complex, the contact area and the percentage (portion) of the ligand that makes the contact.
 
@@ -16,11 +16,11 @@ It allows obtaining in a .dat file the surface area obtained by SASA of the liga
 
 Python
 
-Pymol libraries
+PyMOL libraries
 
-To install Pymol libraries by console use:
+To install PyMOL libraries by console use:
 ```
-sudo apt-get install pymol
+sudo apt-get install PyMOL
 ```
 
 ## Usage
@@ -32,3 +32,10 @@ python md_contact_surface.py -top file.xxx -traj trajectory_file.xxx -l "ligand_
 ## Contributors
 
 [Francisco Adasme](http://github.com/franciscoadasme)
+
+## Citing
+
+[Contact_surface](https://github.com/maurobedoya/contact_surface)
+
+[PyMOL](https://pymol.org/2/)
+
