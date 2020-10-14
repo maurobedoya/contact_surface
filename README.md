@@ -14,13 +14,13 @@ It allows obtaining in a .dat file the surface area obtained by SASA of the liga
 
 ## Requirements
 
-Python
+* Python
 
-PyMOL libraries
+* PyMOL libraries
 
 To install PyMOL libraries by console use:
 ```
-sudo apt-get install PyMOL
+sudo apt-get install pymol
 ```
 
 ## Usage
@@ -49,7 +49,6 @@ Licensed under the MIT license, see the separate LICENSE file.
 
 ## Citing
 
-[Contact_surface](https://github.com/maurobedoya/contact_surface)
-
-[PyMOL](https://pymol.org/2/)
+* [Contact_surface](https://github.com/maurobedoya/contact_surface)
+* [PyMOL](https://pymol.org/2/)
 
